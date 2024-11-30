@@ -1,0 +1,123 @@
+@media screen and (max-width: 991.98px) {
+  .toggle_icon {
+    display: block;
+  }
+  .mob_main_menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 10px 35px;
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.3);
+  }
+  .mob_main_menu li a {
+    display: block;
+    padding: 5px;
+  }
+
+  .mob_main_menu li a {
+    font-size: 12px !important;
+  }
+
+  .slider-spacer {
+    padding: 30px 0;
+  }
+  #slider {
+    padding: 0 25px !important;
+  }
+  .slider-spacer {
+    padding: 30px 0;
+  }
+  #slider .item {
+    margin: 0 10px;
+  }
+  #slider .item .img {
+    height: 550px;
+    width: 100%;
+    padding: 12px;
+  }
+  .owl-prev {
+    top: 41%;
+    left: 0px !important;
+  }
+  .owl-next {
+    top: 41%;
+    right: 10px !important;
+  }
+  #slider .item .img img {
+    border-radius: 10px;
+  }
+  .spacer {
+    padding: 50px 0;
+  }
+  .blog-img-content {
+    padding: 0 30px;
+  }
+  .login .rel .ps-md-10 {
+    padding-left: 0px !important;
+  }
+  .login-form::after {
+    display: none;
+    content: "";
+  }
+  .login .social-login ul li a {
+     width: 300px;
+  }
+  .login-form  form a {
+     margin-left: 5px !important;
+  }
+  .login-form .input-item {
+     min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  #slider {
+    padding: 0 90px;
+    overflow: hidden;
+  }
+  .owl-prev {
+    top: 41%;
+    left: 50px;
+  }
+  .owl-next {
+    top: 41%;
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .row > * {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bottom_header {
+    padding: 0;
+  }
+  #slider .owl-nav {
+    display: none;
+  }
+  #slider .item .slider-text-content {
+    top: 130px;
+    left: 20px;
+  }
+  #slider .item .slider-text-content h2 {
+    font-size: 28px;
+  }
+  #slider .item .slider-text-content p {
+    font-size: 15px;
+  }
+
+  .footer-nav ul li {
+    margin: 0px 5px !important;
+  }
+
+  .select-order-p {
+    margin-left: 0;
+  }
+}
